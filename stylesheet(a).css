@@ -1,0 +1,150 @@
+.nav-bar{
+    background-color: black;
+}
+.hero-wrapper{
+    color: tomato !important;
+    font-size: 60px;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: tomato !important;
+
+  }
+.nav-link.active{
+    color: tomato !important;
+   
+  }
+.main{
+  background-color: rgb(215, 208, 78);
+}
+.main-title a{
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  color: tomato;
+  text-align: center;
+  transition: all .40s ease;
+  text-decoration: none;
+  display: block;
+}
+.main-title a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color:rgb(8, 8, 8);
+}
+.main-para{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  color: azure;
+  text-align: center;
+  font-weight: 500;
+}
+.second-title a{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  color: tomato;
+  transition: all .40s ease;
+  text-decoration: none;
+  display: block;
+  margin-left: 25px;
+}
+.second-title a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color:rgb(128, 195, 97);
+}
+.middle-para{
+  font-weight: 450px;
+  padding-left: 4px;
+  margin-bottom: 30px;
+}
+.main-img-slider{
+  height: 500px; 
+}
+.main-img-slider img{
+  height: 500px; 
+  object-fit: cover;
+}
+.end{
+  color: blue;
+  line-height: 50px;
+}
+.end-para{
+  color: gray;
+  line-height: 30px;
+}
+.contact-dt{
+  text-align: center;
+  line-height: 30px;
+}
+.contact{
+  transition: all .40s ease;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.contact:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color:gray;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 3.5rem;
+    background-color: rgb(21, 24, 48);
+    position:relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .footer-content{
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  .footer-content li{
+    margin-bottom: 6px;
+  list-style:none ;
+  }
+  .footer-content li a{
+   display: block;
+   color: rgb(233, 241, 248);
+   font-size: 15px;
+   font-weight: 400;
+   transition: all .40s ease;
+   text-decoration: none;
+  }
+  .footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: rgb(252, 252, 239);
+  }
+  .footer-Icon{
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  .footer-Icon li{
+    margin-bottom: 6px;
+    list-style:none ;
+    font-size: 10px;
+  }
+  i{
+    color: tomato;
+  }
+  .copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .ci{
+    color: white;
+  }
+ 
