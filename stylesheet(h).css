@@ -1,0 +1,148 @@
+.nav-bar{
+    background-color: black;
+}
+.hero-wrapper{
+    color: tomato !important;
+    font-size: 60px;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: tomato !important;
+
+  }
+.nav-link.active{
+    color: tomato !important;
+   
+  }
+.main img{
+    size: cover;
+    height: 600px;
+    max-width: 100%;
+  }
+  .title{
+    color: tomato;
+    font-size: 40px;
+    font-weight: 475;
+  } 
+  .sub-title{
+    color:gray;
+    text-align: center;
+  }
+ .row-img{ 
+    height:185px;
+    width:300px;   
+  }  
+  p{
+    font-size:24px;
+    font-weight: 20px;
+    text-align: center;
+  }
+ .row2-img{
+    height: 400px;
+    width: 350px;
+ }
+ .fanbase-row{
+  background-color: rgb(21, 24, 48);
+  height: 300px;
+  text-align: center;
+  padding-inline-start: 10%;
+  padding-inline-end: 10%;
+ }
+ .num-row{
+  font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  color: tomato;
+}
+ .fan-row{
+  color: white;
+ }
+ .card ::after{
+  content: "";
+  height: 4px; 
+  background-color: #3498db; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ }
+ .card-body{
+  text-align: center;
+ }
+ .card-title{
+  color: #3498db;
+ }
+.more{
+  text-decoration: none;
+  color: #3498db;
+}
+.btn{
+  width: 250px;
+  background-color: rgb(76, 170, 242);
+  color: white;
+}
+.error{
+  font-size: 14px;
+  display:none ;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+  gap: 3.5rem;
+  background-color: rgb(21, 24, 48);
+  position:relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer-content{
+  color: white;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.footer-content li{
+  margin-bottom: 6px;
+list-style:none ;
+}
+.footer-content li a{
+ display: block;
+ color: rgb(233, 241, 248);
+ font-size: 15px;
+ font-weight: 400;
+ transition: all .40s ease;
+ text-decoration: none;
+}
+.footer-content li a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: rgb(252, 252, 239);
+}
+.footer-Icon{
+  color: white;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.footer-Icon li{
+  margin-bottom: 6px;
+  list-style:none ;
+  font-size: 10px;
+}
+i{
+  color: tomato;
+}
+.copyright{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.ci{
+  color: white;
+}
