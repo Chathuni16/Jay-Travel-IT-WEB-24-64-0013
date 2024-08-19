@@ -1,0 +1,144 @@
+.nav-bar{
+    background-color: black;
+}
+.hero-wrapper{
+    color: tomato !important;
+    font-size: 60px;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: tomato !important;
+
+  }
+.nav-link.active{
+    color: tomato !important;
+   
+  }
+.title a{
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  color: rgb(254, 9, 9);
+  font-size: 50px;
+  transition: all .40s ease;
+  text-decoration: none;
+  display: block;
+}
+.title a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color:rgb(164, 89, 89);
+}
+.card-hd{
+  font-size: 30px;
+  background-color: rgb(112, 220, 220);
+  color: rgb(214, 77, 23);
+}
+.card-bd{
+  background-color: rgb(83, 158, 133);
+  color: rgb(39, 35, 66);
+}
+.card-hd2{
+  font-size: 30px;
+  background-color: rgb(122, 170, 187);
+  color: rgb(214, 77, 23);
+}
+.card-bd2{
+  background-color: rgb(89, 83, 175);
+  color: rgb(39, 35, 66);
+}
+.card-hd3{
+  font-size: 30px;
+  background-color: rgb(113, 172, 119);
+  color: rgb(214, 77, 23);
+}
+.card-bd3{
+  background-color: rgb(51, 135, 106);
+  color: rgb(39, 35, 66);
+}
+.card-hd4{
+  font-size: 30px;
+  background-color: rgb(209, 194, 112);
+  color: rgb(214, 77, 23);
+}
+.card-bd4{
+  background-color: rgb(191, 214, 62);
+  color: rgb(39, 35, 66);
+}
+
+.title2 a{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  color: tomato;
+  font-size: 40px;
+transition: all .40s ease;
+  text-decoration: none;
+  display: block;
+}
+.title2 a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color:rgb(227, 114, 114);
+}
+
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 3.5rem;
+    background-color: rgb(21, 24, 48);
+    position:relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-content{
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  .footer-content li{
+    margin-bottom: 6px;
+  list-style:none ;
+  }
+  .footer-content li a{
+   display: block;
+   color: rgb(233, 241, 248);
+   font-size: 15px;
+   font-weight: 400;
+   transition: all .40s ease;
+   text-decoration: none;
+  }
+  .footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: rgb(252, 252, 239);
+  }
+  .footer-Icon{
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  .footer-Icon li{
+    margin-bottom: 6px;
+    list-style:none ;
+    font-size: 10px;
+  }
+  i{
+    color: tomato;
+  }
+  .copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .ci{
+    color: white;
+  }
+ 
